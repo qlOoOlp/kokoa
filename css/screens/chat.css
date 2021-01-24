@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 500vh;
+  height: 300vh;
 }
 #chat-screen .status-bar {
   z-index: 2;
@@ -10,7 +10,6 @@
   background-color: #abc1d1;
   position: fixed;
   top: 0px;
-  width: 100%;
   box-sizing: border-box;
 }
 @keyframes fadein {

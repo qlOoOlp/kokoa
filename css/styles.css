@@ -29,3 +29,44 @@ body {
 .main-screen {
   padding: 0px var(--horizontal-space);
 }
+
+@media screen and (max-width: 400px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  .status-bar {
+    opacity: 0%;
+  }
+  .alt-header {
+    width: 100vw;
+  }
+}
+@media screen and (min-width: 401px) {
+  html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  body {
+    width: 400px;
+    height: 100vh;
+    border: 4px solid var(--yellow);
+  }
+  .find-body {
+    height: 130vh;
+  }
+  #splash-screen {
+    width: 400px;
+  }
+  .reply,
+  .nav,
+  .status-bar {
+    width: 400px;
+  }
+
+  .alt-header {
+    width: 400px;
+  }
+}

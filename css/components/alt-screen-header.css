@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   box-sizing: border-box;
   padding: var(--horizontal-space);
   padding-top: 50px;
